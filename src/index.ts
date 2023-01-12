@@ -7,6 +7,6 @@ const port = 5010;
 
 app.use(routes);
 
-app.listen(port, () => {
+app.listen(port, (): void => {
 	console.log(`server started at http://localhost:${port}/api`);
 });
